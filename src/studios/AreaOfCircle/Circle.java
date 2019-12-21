@@ -1,4 +1,4 @@
-package studios.areaofcircle;
+package studios.AreaOfCircle;
 
 public class Circle {
 
