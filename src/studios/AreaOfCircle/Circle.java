@@ -2,8 +2,10 @@ package studios.AreaOfCircle;
 
 public class Circle {
 
-    public static Double getArea(Double radius) {
-        return 3.14 * radius * radius;
+    public static final double PI = 3.14
+
+    public static Double getArea(double radius) {
+        return PI * radius * radius;
     }
 
 }
