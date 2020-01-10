@@ -28,9 +28,9 @@ public class Student {
     public int getNumberOfCredits() {return numberOfCredits;}
     public double getGpa() {return gpa;}
 
-    public void setName(String aName) {name = aName;}
-    public void setStudentId(int aStudentId) {studentId = aStudentId;}
-    public void setNumberOfCredits(int aNumberOfCredits) {numberOfCredits = aNumberOfCredits;}
+    private void setName(String aName) {name = aName;}
+    private void setStudentId(int aStudentId) {studentId = aStudentId;}
+    private void setNumberOfCredits(int aNumberOfCredits) {numberOfCredits = aNumberOfCredits;}
     private void setGpa(double aGpa) {gpa = aGpa;}
 
 }
