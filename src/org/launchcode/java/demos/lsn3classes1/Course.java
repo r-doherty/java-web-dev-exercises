@@ -6,10 +6,9 @@ public class Course {
 
     private String courseName;
     private double creditHours;
-    private HashMap<String, Integer> studentRoster = new HashMap<>();
+    private HashMap<Integer, Student> studentRoster = new HashMap<>();
 
-    public Course (String courseName, int creditHours, HashMap<String, Integer> studentRoster)
-    {
+    public Course (String courseName, int creditHours, HashMap<Integer, Student> studentRoster) {
         this.courseName = courseName;
         this.creditHours = creditHours;
         this.studentRoster = studentRoster;
@@ -17,9 +16,9 @@ public class Course {
 
     public String getCourseName() {return courseName;}
     public double getCreditHours() {return creditHours;}
-    public HashMap<String, Integer> getStudentRoster() {return studentRoster;}
+    public HashMap<Integer, Student> getStudentRoster() {return studentRoster;}
 
     private void setCourseName(String aCourseName) {this.courseName = aCourseName;}
     private void setCreditHours(int someCreditHours) {this.creditHours = someCreditHours;}
-    private void setStudentRoster(String someStudentName, int someStudentId) {this.studentRoster.put(someStudentName, someStudentId);}
+    private void setStudentRoster(Integer studentId, Student someStudent) {this.studentRoster.put(studentId, someStudent);}
 }
