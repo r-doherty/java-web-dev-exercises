@@ -18,7 +18,7 @@ public class Course {
     public double getCreditHours() {return creditHours;}
     public HashMap<Integer, Student> getStudentRoster() {return studentRoster;}
 
-    private void setCourseName(String aCourseName) {this.courseName = aCourseName;}
-    private void setCreditHours(int someCreditHours) {this.creditHours = someCreditHours;}
-    private void setStudentRoster(Integer studentId, Student someStudent) {this.studentRoster.put(studentId, someStudent);}
+    private void setCourseName(String aCourseName) {courseName = aCourseName;}
+    private void setCreditHours(int someCreditHours) {creditHours = someCreditHours;}
+    private void setStudentRoster(Integer studentId, Student someStudent) {studentRoster.put(studentId, someStudent);}
 }

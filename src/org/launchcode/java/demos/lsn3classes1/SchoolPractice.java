@@ -7,6 +7,8 @@ import java.util.HashMap;
 public class SchoolPractice {
     public static void main(String[] args) {
         Student ryanDoherty = new Student("Ryan Doherty", 9811, 1, 4.0);
+
+        System.out.println(ryanDoherty.getName());
     }
 
 }
